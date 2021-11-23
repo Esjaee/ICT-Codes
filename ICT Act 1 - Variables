@@ -4,6 +4,8 @@ Required Elements:
 7 Buttons
   → Clear Button and Exit Button
   → Sum, Diff, Prod, Quotient buttons. (Name: btnSum, btnDifference, etc.)
+5 labels
+  → Labels where the computed number will appear. (Name: lblSum, lblDifference, etc.)
 ________________________________________________________________________________________________________________________
 Public Class frmVariable
     Dim First_No, Second_No, Third_No, Fourth_No, Fifth_No As Double
