@@ -1,6 +1,6 @@
-<img src="Mod%20Files/Output.jpg">
+![Output](https://user-images.githubusercontent.com/94034753/144513316-af409350-e512-4cec-9de7-09f74fdd6099.jpg)
 
-Required Elements: </br>
+<h3>Required Elements:</h3></br>
 
 5 blank text boxes </br>
   → In this example, it's named txt1N. Please change it when copying the code. </br>
