@@ -3,7 +3,7 @@
 
 3 Regular Labels </br>
 → These are static labels that have no code, no need to change element name, only the text</br>
-→ Text: "Location", "Genres", "Name". </br>
+→ Text: "Location" | "Genres" | "Name". </br>
 
 1 Blank Label </br>
 → Blank label where the Aisle Number will appear. </br>
@@ -14,6 +14,11 @@
 → Coded buttons; when pressed Aisle Number should appear on "lblLocation" label.</br>
 → Name: "btnGenre" (ex: "btnComedy", "btnHorror", etc.)</br>
 → Text: "Genre" (ex: "Comedy", "Horror", etc.)</br>
+
+2 Function Buttons </br>
+→ Coded Buttons; When pressed, funtion should occur. </br>
+→ Name: "btnPrint" | "btnExit" </br>
+→ Text: "Print" | "Exit"</br>
 ________________________________________________________________________________________________________________________
 ```
 Public Class frmAstroVideo
