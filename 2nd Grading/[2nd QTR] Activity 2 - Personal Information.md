@@ -43,7 +43,9 @@
 → Do not copy theme in example! </br>
 → Different sections might have different coding/naming requirements. Please follow this.</br>
 → Print code differs between programs. I am unable to provide the code for VB2008.</br>
+
 ________________________________________________________________________________________________________________________
+
 ```
 Public Class frmPersonalInfo
     Dim FN, MN, LN, GL, Section As String
