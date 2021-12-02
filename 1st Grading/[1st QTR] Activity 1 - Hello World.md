@@ -1,5 +1,4 @@
-<img src="Mod%20Files/(REUPLOAD-CORRECT%20ONE)%20ICT%20Activity%20%231%20Output.png">
-
+![Act1HelloWorld](https://user-images.githubusercontent.com/94034753/144505340-9c88d704-65e4-4480-9027-a83d20db6327.png)
 <h3>Required Elements:</h3> </br>
 
 1 Button</br>
