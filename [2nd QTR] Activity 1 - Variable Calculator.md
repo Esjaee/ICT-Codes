@@ -1,14 +1,18 @@
-![](Mod%20Files/Output.jpg)
+<img src="Mod%20Files/Output.jpg">
 
-Required Elements: 
-5 blank text boxes
-  → In this example, it's named txt1N. Please change it when copying the code.
-7 Buttons
-  → Clear Button and Exit Button
-  → Sum, Diff, Prod, Quotient buttons. (Name: btnSum, btnDifference, etc.)
-5 labels
-  → Labels where the computed number will appear. (Name: lblSum, lblDifference, etc.)
+Required Elements: </br>
+
+5 blank text boxes </br>
+  → In this example, it's named txt1N. Please change it when copying the code. </br>
+
+7 Buttons </br>
+  → Clear Button and Exit Button </br>
+  → Sum, Diff, Prod, Quotient buttons. (Name: btnSum, btnDifference, etc.) </br>
+
+5 labels </br>
+  → Labels where the computed number will appear. (Name: lblSum, lblDifference, etc.) </br>
 ________________________________________________________________________________________________________________________
+```
 Public Class frmVariable
     Dim First_No, Second_No, Third_No, Fourth_No, Fifth_No As Double
 
@@ -68,3 +72,4 @@ Public Class frmVariable
         Me.Close()
     End Sub
 End Class
+```
