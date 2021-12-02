@@ -1,3 +1,7 @@
+Code Reminders: 
+→ Change "Location" with ADDRESS of the store.
+→ Change "Time" with Store Hours.
+________________________________________________________________________________________
 Public Class frmClothingLine
     Private Sub btnBGC_Click(sender As Object, e As EventArgs) Handles btnBGC.Click
         lblAddress.Text = "Location"
