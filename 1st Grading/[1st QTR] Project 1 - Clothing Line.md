@@ -17,8 +17,8 @@
 
 2 Function Buttons </br>
 → Coded Buttons; When pressed, funtion should occur. </br>
-→ Name: "btnPrint" | "btnExit"
-→ Text: "Print" | "Exit"
+→ Name: "btnPrint" | "btnExit" </br>
+→ Text: "Print" | "Exit"</br>
 
 Code Reminders: </br>
 → Change "Location" with ADDRESS of the store. </br>
