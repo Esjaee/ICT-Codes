@@ -1,5 +1,5 @@
 ![Astro Video](https://user-images.githubusercontent.com/94034753/144505696-263125a3-dbf8-45b1-8f7e-d01b0b8a9d41.png)
-<h3>Required Elements</hr></br>
+<h3>Required Elements</h3></br>
 
 3 Regular Labels </br>
 → These are static labels that have no code, no need to change element name, only the text</br>
