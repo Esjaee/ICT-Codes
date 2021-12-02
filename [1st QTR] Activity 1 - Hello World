@@ -1,0 +1,5 @@
+Public Class frmHelloWorld
+  Private Sub btnEnglish_Click(sender As Object, e As EventArgs) Handles btnEnglish.Click
+    lblMessage.Text = "Hello World"
+  End Sub
+End Class
