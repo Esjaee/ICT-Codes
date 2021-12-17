@@ -48,7 +48,8 @@ Print Button (VB19) <br/>
 → Do not copy theme in example! </br>
 → Different sections might have different coding/naming requirements. Please follow this.</br>
 → Don't forget to remove the control box from your form. (Window Style > ControlBox: "False")</br>
-________________________________________________________________________________________________________________________
+
+_________________________________________________________________________________________________
 
 ```
 Public Class frmThe_Switcher
