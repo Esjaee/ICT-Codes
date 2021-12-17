@@ -39,6 +39,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "Print"</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "Exit"</br>
 
+1 Group Box <br/>
+→ This is where you will put the Radio Buttons <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Text: "Choose a color" <br/>
+
+4 Radio Buttons <br/>
+→ This where the user will choose the color of the blank label (lblLight) <br/>
+→ Name: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "radColor" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Replace rad"Color with other colors. EX: "radRed", "radBlue", etc. <br/>
+
 Print Button (VB19) <br/>
 → To print your form in VB19, insert "PrintDocument" from toolbox to interface. <br/>
 → Name: "PrintTheSwitcher" <br/>
@@ -48,26 +58,27 @@ Print Button (VB19) <br/>
 → Do not copy theme in example! </br>
 → Different sections might have different coding/naming requirements. Please follow this.</br>
 → Don't forget to remove the control box from your form. (Window Style > ControlBox: "False")</br>
+→ Replace "(Choose Color)" with Colors in VB like "Red", "Blue", etc. <br/>
 
 _________________________________________________________________________________________________
 
 ```
 Public Class frmThe_Switcher
 
-    Private Sub radWhite_CheckedChanged(sender As Object, e As EventArgs) Handles radWhite.CheckedChanged
-        lblLight.ForeColor = Color.White
+    Private Sub radColor_CheckedChanged(sender As Object, e As EventArgs) Handles radWhite.CheckedChanged
+        lblLight.ForeColor = Color.(Choose Color)
     End Sub
 
-    Private Sub radRed_CheckedChanged(sender As Object, e As EventArgs) Handles radRed.CheckedChanged
-        lblLight.ForeColor = Color.Red
+    Private Sub radColor2_CheckedChanged(sender As Object, e As EventArgs) Handles radRed.CheckedChanged
+        lblLight.ForeColor = Color.(Choose Color)
     End Sub
 
-    Private Sub radOrange_CheckedChanged(sender As Object, e As EventArgs) Handles radOrange.CheckedChanged
-        lblLight.ForeColor = Color.Orange
+    Private Sub radColor3_CheckedChanged(sender As Object, e As EventArgs) Handles radOrange.CheckedChanged
+        lblLight.ForeColor = Color.(Choose Color)
     End Sub
 
-    Private Sub radYellow_CheckedChanged(sender As Object, e As EventArgs) Handles radYellow.CheckedChanged
-        lblLight.ForeColor = Color.Yellow
+    Private Sub radColor4_CheckedChanged(sender As Object, e As EventArgs) Handles radYellow.CheckedChanged
+        lblLight.ForeColor = Color.(Choose Color)
     End Sub
 
     Private Sub pboLightsOff_Click(sender As Object, e As EventArgs) Handles pboLightsOff.Click
