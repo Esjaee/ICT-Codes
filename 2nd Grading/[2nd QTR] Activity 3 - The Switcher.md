@@ -1,7 +1,53 @@
 ![INTERFACE - Act3TSwitcherHumility Follosco](https://user-images.githubusercontent.com/94034753/146489897-544eb667-3c57-4a55-a53e-57130fc4e3c8.png)
 <h3>Required Elements:</h3></br>
 
-/tba/
+2 Light Bulb Images <br/>
+→ These are the light bulb images to be used in the interface. <br/>
+→ In the upper right arrow button of the picture box, press "Choose Image"<br/>
+→ Choose "Project Resource File" then click import. Find the light bulb images you saved from the internet then press "OK".
+
+2 Picture Boxes <br/>
+→ These is where we will put the light bulb images. <br/>
+→ Names: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "pboLightsOn" (Lights on img) </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "pboLightsOff" (Lights off img)</br>
+→ Required Properties (In upper right button of box): </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Size Mode: Zoom </br>
+
+2 Regular Labels </br>
+→ These are static labels that have no code, no need to change element name, only the text. </br>
+→ Text: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→"Name:"</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→"Programmed by: "</br>
+
+1 Blank Label </br>
+→ This is where the generated text will appear. </br>
+→ Name: "lblLight"</br>
+→ Text: "&nbsp;&nbsp;&nbsp;"</br>
+
+1 Blank Textboxes </br>
+→ These are blank textboxes where we will input information. </br>
+→ Name: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "txtName"</br>
+
+2 Function Buttons </br>
+→ Coded Buttons; When pressed, funtion should occur. </br>
+→ Name:</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "btnPrint"</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "btnExit"</br>
+→ Text: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "Print"</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ "Exit"</br>
+
+Print Button (VB19) <br/>
+→ To print your form in VB19, insert "PrintDocument" from toolbox to interface. <br/>
+→ Name: "PrintTheSwitcher" <br/>
+→ Then, input VB19 Print code from the code below.
+
+<h3>🟥Code Reminders:🟥</h3></br>
+→ Do not copy theme in example! </br>
+→ Different sections might have different coding/naming requirements. Please follow this.</br>
+→ Don't forget to remove the control box from your form. (Window Style > ControlBox: "False")</br>
 ________________________________________________________________________________________________________________________
 ```
 Public Class frmThe_Switcher
