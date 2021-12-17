@@ -49,10 +49,9 @@ Print Button (VB19) <br/>
 → Different sections might have different coding/naming requirements. Please follow this.</br>
 → Don't forget to remove the control box from your form. (Window Style > ControlBox: "False")</br>
 ________________________________________________________________________________________________________________________
+
 ```
 Public Class frmThe_Switcher
-    'Programmed by: Name
-    'Date: Date
 
     Private Sub radWhite_CheckedChanged(sender As Object, e As EventArgs) Handles radWhite.CheckedChanged
         lblLight.ForeColor = Color.White
